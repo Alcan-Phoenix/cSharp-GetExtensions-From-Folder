@@ -10,7 +10,7 @@ namespace _03
 		static void Main(string[] args)
 		{
 			List<string> extList = GetExtensions(
-									$@"{Directory.GetCurrentDirectory()}\folder\", "*.*");
+			$@"{Directory.GetCurrentDirectory()}\folder\", "*.*");
 			extList.ForEach(Console.WriteLine);
 		}
 
